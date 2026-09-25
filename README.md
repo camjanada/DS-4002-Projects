@@ -120,7 +120,3 @@ Unzip `OUTPUT.zip` and compare its figures and tables with those in this reposit
 - **The baseline** predicts the mean polarization of the *training* data for every review, so no information from the held-out data is used.
 - **Results are associative only** and do not support a causal conclusion.
 
-## References
-[1] [Kaggle dataset citation: "Massive Rotten Tomatoes Movies & Reviews," author, year, URL]
-[2] textstat documentation: https://pypi.org/project/textstat/
-[3] [Any other sources your team cited]
