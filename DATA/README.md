@@ -68,21 +68,16 @@ In addition, word count and Flesch–Kincaid Grade Level do not perfectly captur
 
 ### Distribution of review length and polarization
 
-![Histograms of word count and polarization](../OUTPUT/eda_histograms.png)
+![Histograms of word count and polarization](../DATA/EDA1)
 
 Reviews are short, with a median length of 24 words. Polarization values are concentrated just under 0.1 and above 0.3, and their clustering at specific values reflects the discrete rating scales critics use.
 
 ### Average polarization by review length
 
-![Average polarization by review length](../OUTPUT/eda_polarization_by_length.png)
+![Average polarization by review length](../DATA/EDA2)
 
 Average polarization stays around 0.2 across review lengths, suggesting at most a weak relationship between how long a review is and how polarized its score is.
 
-### Distribution of Flesch–Kincaid Grade Level
-
-![Histogram of Flesch–Kincaid Grade Level](../OUTPUT/eda_grade_level_hist.png)
-
-Most reviews fall within a typical range of grade levels, but very short excerpts can produce extreme or negative values. This is why grade level was winsorized before modeling.
 
 ### Additional exploratory finding: Top Critics vs. Other Critics
 
