@@ -1,0 +1,9 @@
+,stage,criterion,met
+0,In-sample,R² > 0,YES
+1,In-sample,MAE below intercept-only baseline,YES
+2,In-sample,RMSE below intercept-only baseline,YES
+3,Held-out,R² > 0,YES
+4,Held-out,MAE below training-mean baseline,YES
+5,Held-out,RMSE below training-mean baseline,YES
+6,Goal,Held-out R² > 0.2,NO
+7,Goal,≥70% of predictions within ±0.5,YES
