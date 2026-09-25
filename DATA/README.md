@@ -66,23 +66,20 @@ In addition, word count and Flesch–Kincaid Grade Level do not perfectly captur
 
 ## Explanatory Plots
 
-### Distribution of review length and polarization
+### Histograms of word count and ratings
 
-![Histograms of word count and polarization](../DATA/EDA1)
+![Histograms of word count and ratings](../DATA/EDA1)
 
-Reviews are short, with a median length of 24 words. Polarization values are concentrated just under 0.1 and above 0.3, and their clustering at specific values reflects the discrete rating scales critics use.
+Reviews are short, with a median length of 24 words. Rating values are concentrated above a 2.5 (the midpoint).
 
 ### Average polarization by review length
 
-![Average polarization by review length](../DATA/EDA2)
+![Distribution of Reviews](../DATA/EDA2)
 
-Average polarization stays around 0.2 across review lengths, suggesting at most a weak relationship between how long a review is and how polarized its score is.
+Most reviews go above a 2.5 but are relatively concentrated towards middle values. 
 
 
 ### Additional exploratory finding: Top Critics vs. Other Critics
 
 We also explored whether Top Critics and Other Critics differ in how polarized their scores are across review lengths. Other Critics were consistently more polarized than Top Critics across nearly all review lengths, although the relationship was not perfectly linear. Polarization dipped for medium-length reviews and rose again for longer ones, especially among Other Critics. This suggests critic type may matter when examining the relationship between review length and polarization, which is why top-critic status is included as a control in our model.
 
-## References
-
-[1] andrezaza, "Massive Rotten Tomatoes Movies & Reviews," Kaggle, 2023. [Kaggle link]
