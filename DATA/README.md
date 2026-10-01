@@ -9,7 +9,7 @@ This folder contains the data used in **Relationship between Movie Review Comple
 ## Data Summary
 
 The data used in this project come from the Massive Rotten Tomatoes Movies & Reviews dataset publicly hosted on Kaggle. It contains information on more than 140,000 movies and over 1.4 million professional critic reviews, scraped from Rotten Tomatoes on April 12, 2023.
-For this project, we used the review-level data and created a cleaned Excel file, 'Rotten Tomatoes Data (Cleaned).xlsx', which is included in this repository. The file contains the review information relevant to our analysis, including movie ID, review ID, review date, critic name, top-critic status, original score, standardized score, publication, review text, sentiment, and review URL.
+For this project, we used the review-level data and created a cleaned Excel file, `Rotten Tomatoes Data (Cleaned).xlsx`, which is included in this repository. The file contains the review information relevant to our analysis, including movie ID, review ID, review date, critic name, top-critic status, original score, standardized score, publication, review text, sentiment, and review URL.
 We did not use every observation because our project focuses on movie reviews from the post-COVID era. We define this as any review published from January 1, 2021 through April 12, 2023, which gives approximately 145,000 reviews. After removing rows with missing review text or scores, standardizing scores, and removing duplicate reviews, 120,622 reviews were used for modeling.
 
 The dataset can be downloaded directly from Kaggle using the **Download** button or retrieved through the Kaggle API
