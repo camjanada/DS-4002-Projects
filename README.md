@@ -79,9 +79,9 @@ These steps reproduce every figure and table in `OUTPUT/`. The full run takes ab
 
 ### Step 1: Get the data
 1. Open the `DATA/` folder in this repository.
-2. Click `[cleaned_data_file].csv`, then click the **download icon** (↓) in the top right to save it to your computer.
-   - If the file is not in the folder because it is too large for GitHub, download it from our Google Drive instead: [Google Drive link]
-3. The cleaned file was created from the "Massive Rotten Tomatoes Movies & Reviews" dataset on Kaggle ([link]). Sample selection and inclusion criteria are described in `DATA/README.md`.
+2. Click `Rotten Tomatoes Data (Cleaned).xlsx`, then click the download icon (↓) in the top right to save the file to your computer.
+3. The cleaned Excel file was created from the **Massive Rotten Tomatoes Movies & Reviews** dataset on Kaggle. Details about the original dataset, acquisition process, and cleaning steps are documented in `DATA/Original Data README.md`.
+4. Use `Rotten Tomatoes Data (Cleaned).xlsx` as the input file when running the analysis notebook.
 
 ### Step 2: Open the notebook in Google Colab
 1. Go to [colab.research.google.com](https://colab.research.google.com/) and sign in with a Google account.
