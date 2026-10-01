@@ -4,7 +4,7 @@ This folder contains the data used in **Relationship between Movie Review Comple
 
 | File | Description |
 |---|---|
-| `rotten_tomatoes_data_with_vars.csv` | The cleaned sample plus the engineered variables used in modeling (polarization, word count, grade level) |
+| `rotten_tomatoes_data_with_vars.csv` | The cleaned sample plus the engineered variables used in modeling (polarization, word count, grade level). However, the file was too big to include in Github |
 
 ## Data Summary
 
