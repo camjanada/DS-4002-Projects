@@ -79,9 +79,9 @@ These steps reproduce every figure and table in `OUTPUT/`. The full run takes ab
 
 ### Step 1: Get the data
 1. Open the `DATA/` folder in this repository.
-2. Click `Rotten Tomatoes Data (Cleaned).xlsx`, then click the download icon (↓) in the top right to save the file to your computer.
+2. Click `rotten_tomatoes_data_with_vars.csv`, then click the download icon (↓) in the top right to save the file to your computer.
 3. The cleaned Excel file was created from the **Massive Rotten Tomatoes Movies & Reviews** dataset on Kaggle. Details about the original dataset, acquisition process, and cleaning steps are documented in `DATA/Original Data README.md`.
-4. Use `Rotten Tomatoes Data (Cleaned).xlsx` as the input file when running the analysis notebook.
+4. Use `rotten_tomatoes_data_with_vars.csv` as the input file when running the analysis notebook.
 
 ### Step 2: Open the notebook in Google Colab
 1. Go to [colab.research.google.com](https://colab.research.google.com/) and sign in with a Google account.
@@ -90,7 +90,7 @@ These steps reproduce every figure and table in `OUTPUT/`. The full run takes ab
 
 ### Step 3: Run the notebook
 1. Click **Runtime → Run all**.
-2. The first code cell will pause and show a **Choose Files** button. Click it and select the `[cleaned_data_file].csv` you downloaded in Step 1. The notebook continues once the upload finishes; a large file can take a minute or two to upload.
+2. The first code cell will pause and show a **Choose Files** button. Click it and select the `rotten_tomatoes_data_with_vars.csv` you downloaded in Step 1. The notebook continues once the upload finishes; a large file can take a minute or two to upload.
 3. Let the remaining cells run in order. Do not skip cells or run them out of order, because the model testing cell reuses the model fit in the model development cell.
    - The notebook installs `textstat` automatically. If you see `No module named 'textstat'`, run `%pip install textstat` in a new cell, then run all again.
    - The notebook downloads `rotten_tomatoes_data_with_vars.csv` partway through. If your browser asks for permission to download files, click **Allow**.
