@@ -70,7 +70,7 @@ DS-4002-Projects/
 │   └── margin_table.csv                   # Held-out accuracy at ±0.05, ±0.10, ±0.25 and ±0.5
 │
 └── REFERENCES/
-    └── Reference files                     # Sources cited in the project
+    └── README.md                          # Sources cited in the project
 ```
 
 ## Section 3: Instructions for Reproducing Results
