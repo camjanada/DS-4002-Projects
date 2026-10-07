@@ -55,21 +55,22 @@ DS-4002-Projects/
 │   └── rotten_tomatoes_data_with_vars.csv # Cleaned data plus engineered variables
 │
 ├── OUTPUT/
-│   ├── eda_histograms.png                 # Distributions of word count and polarization
-│   ├── eda_polarization_by_length.png     # Average polarization by review length
-│   ├── eda_grade_level_hist.png           # Distribution of Flesch–Kincaid Grade Level
-│   ├── summary_statistics.csv             ## Descriptive statistics for key variables
-│   ├── diagnostic_table.csv              ## Residual, Q-Q, observed vs. predicted and coefficient plots
-│   ├── coefficient_table.csv              ## Coefficients, robust SEs, t/p-values, 95% CIs, standardized betas
-│   ├── vif_table.csv                      ## Variance inflation factors (multicollinearity check)
-│   ├── performance.csv                    ## Held-out performance vs. baseline (model development)
-│   ├── performance_table.csv                    ## R², MAE, RMSE, accuracy: model vs. baseline, training and held-out
-│   ├── generalization.csv                 ## Training vs. held-out comparison
-│   ├── criteria.csv                       ## Pass/fail check of each evaluation criterion in our plan
-│   └── margin_table.csv                   ## Held-out accuracy at ±0.05, ±0.10, ±0.25 and ±0.5
+│   ├── prediction_polarization.png        # Observed vs predicted polarization
+│   ├── r2_values.png                      # Average polarization by review length
+│   ├── prediction_error.png               # Final regression vs baseline prediction error
+│   ├── residuals_polarization             # Residuals vs Fitted data
+│   ├── summary_statistics.csv             # Descriptive statistics for key variables
+│   ├── diagnostic_table.csv               # Residual, Q-Q, observed vs. predicted and coefficient plots
+│   ├── coefficient_table.csv              # Coefficients, robust SEs, t/p-values, 95% CIs, standardized betas
+│   ├── vif_table.csv                      # Variance inflation factors (multicollinearity check)
+│   ├── performance.csv                    # Held-out performance vs. baseline (model development)
+│   ├── performance_table.csv              # R², MAE, RMSE, accuracy: model vs. baseline, training and held-out
+│   ├── generalization.csv                 # Training vs. held-out comparison
+│   ├── criteria.csv                       # Pass/fail check of each evaluation criterion in our plan
+│   └── margin_table.csv                   # Held-out accuracy at ±0.05, ±0.10, ±0.25 and ±0.5
 │
 └── REFERENCES/
-    └── [reference files]                  # Sources cited in the project
+    └── Reference files                     # Sources cited in the project
 ```
 
 ## Section 3: Instructions for Reproducing Results
