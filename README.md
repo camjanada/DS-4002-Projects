@@ -58,16 +58,15 @@ DS-4002-Projects/
 │   ├── eda_histograms.png                 # Distributions of word count and polarization
 │   ├── eda_polarization_by_length.png     # Average polarization by review length
 │   ├── eda_grade_level_hist.png           # Distribution of Flesch–Kincaid Grade Level
-│   ├── summary_statistics.csv             # Descriptive statistics for key variables
-│   ├── model_diagnostics.png              # Residual, Q-Q, observed vs. predicted and coefficient plots
-│   ├── coefficient_table.csv              # Coefficients, robust SEs, t/p-values, 95% CIs, standardized betas
-│   ├── vif_table.csv                      # Variance inflation factors (multicollinearity check)
-│   ├── performance_table.csv              # Held-out performance vs. baseline (model development)
-│   ├── model_testing_plots.png            # Held-out residuals, observed vs. predicted, error and R² comparisons
-│   ├── performance.csv                    # R², MAE, RMSE, accuracy: model vs. baseline, training and held-out
-│   ├── generalization.csv                 # Training vs. held-out comparison
-│   ├── criteria.csv                       # Pass/fail check of each evaluation criterion in our plan
-│   └── margin_table.csv                   # Held-out accuracy at ±0.05, ±0.10, ±0.25 and ±0.5
+│   ├── summary_statistics.csv             ## Descriptive statistics for key variables
+│   ├── diagnostic_table.csv              ## Residual, Q-Q, observed vs. predicted and coefficient plots
+│   ├── coefficient_table.csv              ## Coefficients, robust SEs, t/p-values, 95% CIs, standardized betas
+│   ├── vif_table.csv                      ## Variance inflation factors (multicollinearity check)
+│   ├── performance.csv                    ## Held-out performance vs. baseline (model development)
+│   ├── performance_table.csv                    ## R², MAE, RMSE, accuracy: model vs. baseline, training and held-out
+│   ├── generalization.csv                 ## Training vs. held-out comparison
+│   ├── criteria.csv                       ## Pass/fail check of each evaluation criterion in our plan
+│   └── margin_table.csv                   ## Held-out accuracy at ±0.05, ±0.10, ±0.25 and ±0.5
 │
 └── REFERENCES/
     └── [reference files]                  # Sources cited in the project
